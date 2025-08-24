@@ -1,0 +1,14 @@
+plugin.tx_nsmadhav_madhavlist {
+    view {
+        # cat=plugin.tx_nsmadhav_madhavlist/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:ns_madhav/Resources/Private/Templates/
+        # cat=plugin.tx_nsmadhav_madhavlist/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:ns_madhav/Resources/Private/Partials/
+        # cat=plugin.tx_nsmadhav_madhavlist/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:ns_madhav/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_nsmadhav_madhavlist//a; type=string; label=Default storage PID
+        storagePid = 
+    }
+}
